@@ -11,8 +11,8 @@ imageIndexes.forEach(i => {
   image.classList.add('galleryImg');
 
   image.addEventListener('click', () => {
-
-  })
+    selectedImage.src = `/images/family_${i}.jpg`;
+  });
 
   gallery.appendChild(image);
-})
+});
